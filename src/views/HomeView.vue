@@ -6,7 +6,7 @@
     <div class="min-h-[80vh] flex flex-col items-center justify-center px-6 text-center">
 
       <h1 class="animate-reveal hover-glitch text-6xl md:text-8xl font-black text-white tracking-tighter mb-4" data-text="I AM SQMMI3">
-        I AM <a href="/about" class="text-emerald-500 drop-shadow-[0_0_20px_rgba(16,185,129,0.7)]">SQMMI3</a>
+        I AM <RouterLink to="/about" class="text-emerald-500 drop-shadow-[0_0_20px_rgba(16,185,129,0.7)]">SQMMI3</RouterLink>
       </h1>
 
       <p class="animate-reveal-delay text-lg md:text-2xl text-gray-400 font-light max-w-2xl leading-relaxed">
