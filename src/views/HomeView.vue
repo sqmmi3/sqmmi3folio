@@ -6,7 +6,7 @@
     <div class="min-h-[80vh] flex flex-col items-center justify-center px-6 text-center">
 
       <h1 class="animate-reveal hover-glitch text-6xl md:text-8xl font-black text-white tracking-tighter mb-4" data-text="I AM SQMMI3">
-        I AM <span class="text-emerald-500 drop-shadow-[0_0_20px_rgba(16,185,129,0.7)]">SQMMI3</span>
+        I AM <a href="/about" class="text-emerald-500 drop-shadow-[0_0_20px_rgba(16,185,129,0.7)]">SQMMI3</a>
       </h1>
 
       <p class="animate-reveal-delay text-lg md:text-2xl text-gray-400 font-light max-w-2xl leading-relaxed">
@@ -30,7 +30,7 @@
     <section class="max-w-6xl mx-auto py-20 px-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         
-        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500">
+        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500 animate-in backdrop-blur-xs" style="animation-delay: 0.4s">
           <div class="text-emerald-500 mb-4 text-3xl font-mono">01</div>
           <h3 class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch" data-text="ARCHITECT">ARCHITECT</h3>
           <p class="text-gray-400 leading-relaxed">
@@ -39,7 +39,7 @@
           </p>
         </div>
 
-        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500">
+        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500 animate-in backdrop-blur-xs" style="animation-delay: 0.5s">
           <div class="text-emerald-500 mb-4 text-3xl font-mono">02</div>
           <h3 class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch" data-text="CIRCUIT">CIRCUIT</h3>
           <p class="text-gray-400 leading-relaxed">
@@ -48,7 +48,7 @@
           </p>
         </div>
 
-        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500">
+        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500 animate-in backdrop-blur-xs" style="animation-delay: 0.6s">
           <div class="text-emerald-500 mb-4 text-3xl font-mono">03</div>
           <h3 class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch" data-text="STUDIO">STUDIO</h3>
           <p class="text-gray-400 leading-relaxed">
@@ -57,7 +57,7 @@
           </p>
         </div>
 
-        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500">
+        <div class="group p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-all duration-500 animate-in backdrop-blur-xs" style="animation-delay: 0.7s">
           <div class="text-emerald-500 mb-4 text-3xl font-mono">04</div>
           <h3 class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch" data-text="CREATOR">CREATOR</h3>
           <p class="text-gray-400 leading-relaxed">
@@ -70,7 +70,7 @@
     </section>
 
     <section class="max-w-4xl mx-auto py-32 px-6">
-      <div class="bg-white/5 border border-emerald-500/20 rounded-lg p-6 backdrop-blur-xl relative overflow-hidden">
+      <div class="bg-white/5 border border-emerald-500/20 rounded-lg p-6 backdrop-blur-xl relative overflow-hidden animate-in" style="animation-delay: 0.9s">
         <div class="flex gap-2 mb-4 border-b border-white/10 pb-2">
           <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
           <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
@@ -109,7 +109,7 @@
       </div>
     </section> -->
 
-    <div class="w-full bg-emerald-500/5 border-y border-emerald-500/10 py-4 overflow-hidden whitespace-nowrap">
+    <div class="w-full bg-emerald-500/5 border-y border-emerald-500/10 py-4 overflow-hidden whitespace-nowrap animate-in backdrop-blur-xs" style="animation-delay: 1.1s">
       <div class="flex animate-marquee gap-10 text-emerald-400/50 font-black uppercase tracking-widest text-xl">
         <span>Brakence</span> <span>React</span> <span>IoT</span> <span>Jeremy Zucker</span> <span>C++</span> 
         <span>EDEN</span> <span>Flutter</span> <span>React Native</span> <span>Chelsea Cutler</span> <span>C#</span>
