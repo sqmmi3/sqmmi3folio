@@ -89,7 +89,7 @@
         <span class="text-emerald-500 animate-pulse">●</span> SYSTEM_READY // 2026_EDITION
       </div>
 
-      <div class="flex gap-8">
+      <div class="flex flex-wrap gap-8">
         <a v-for="link in socialLinks" 
           :key="link.name" 
           :href="link.url"
