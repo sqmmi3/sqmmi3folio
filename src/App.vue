@@ -1,7 +1,9 @@
-<script setup>
+<script setup lang="ts">
   import { loadSlim } from "@tsparticles/slim";
+  import { Analytics } from '@vercel/analytics/vue';
+  import type { Engine } from "@tsparticles/engine";
 
-  const particlesInit = async (engine) => {
+  const particlesInit = async (engine: Engine) => {
     await loadSlim(engine);
   };
 
@@ -42,6 +44,7 @@
 </script>
 
 <template>
+  <Analytics />
   <vue-particles id="tsparticles" :particlesInit="particlesInit" :options="particlesOptions" />
   <div class="fixed top-[-10%] left-[-10%] w-[600px] h-[600px] bg-emerald-900/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
   <div class="fixed bottom-[10%] right-[-5%] w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none -z-10"></div>
