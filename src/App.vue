@@ -53,7 +53,7 @@ const socialLinks = [
 
   <header class="relative z-10">
     <nav
-      class="flex justify-center gap-20 p-5 bg-white/5 backdrop-blur-md border-b border-white/10 text-white sticky top-0 z-50"
+      class="flex flex-wrap justify-center gap-x-6 gap-y-3 md:gap-20 p-4 md:p-5 bg-white/5 backdrop-blur-md border-b border-white/10 text-white sticky top-0 z-50 text-xs sm:text-sm md:text-base"
     >
       <RouterLink
         to="/"
