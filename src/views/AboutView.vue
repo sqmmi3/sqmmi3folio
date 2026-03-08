@@ -235,7 +235,7 @@ onMounted(() => {
             </div>
             <div class="flex justify-between text-gray-400 mt-1">
               <span>LEGAL_FORM:</span>
-              <span class="text-white">Eenmanszaak (Sole proprietorship)</span>
+              <span class="text-white">Sole proprietorship</span>
             </div>
             <div class="flex justify-between text-gray-400 mt-1">
               <span>VAT_NUMBER:</span>
