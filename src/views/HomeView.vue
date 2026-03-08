@@ -16,13 +16,11 @@
       <p
         class="animate-reveal-delay text-lg md:text-2xl text-gray-400 font-light max-w-2xl leading-relaxed"
       >
-        Architecting
-        <span class="text-emerald-400 font-mono">full-stack systems</span>,
-        <span class="text-emerald-400 font-mono">IoT hardware</span>, and
-        <span class="text-emerald-400 font-mono">indie-pop frequencies</span>. Building at the
-        intersection of logic and
+        <span class="text-emerald-400 font-mono">Full-stack software engineer</span> by day,
+        <span class="text-emerald-400 font-mono">indie-pop artist</span> by night. Building at the
+        intersection of rigid logic and
         <span class="permanent-glitch text-emerald-400 font-mono tracking-widest" data-text="glitch"
-          >glitch</span
+          >creative glitch</span
         >.
       </p>
 
@@ -43,13 +41,13 @@
           <div class="text-emerald-500 mb-4 text-3xl font-mono">01</div>
           <h3
             class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch"
-            data-text="ARCHITECT"
+            data-text="FULL-STACK"
           >
-            ARCHITECT
+            FULL-STACK
           </h3>
           <p class="text-gray-400 leading-relaxed">
-            Building robust full-stack applications and mobile experiences with
-            <span class="text-emerald-400">Vue, Flutter, and TypeScript</span>.
+            Architecting scalable B2B backends and dynamic frontends with
+            <span class="text-emerald-400">React, Vue, Node.js, and Java Spring Boot</span>.
           </p>
         </div>
 
@@ -60,13 +58,13 @@
           <div class="text-emerald-500 mb-4 text-3xl font-mono">02</div>
           <h3
             class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch"
-            data-text="CIRCUIT"
+            data-text="MOBILE OS"
           >
-            CIRCUIT
+            MOBILE OS
           </h3>
           <p class="text-gray-400 leading-relaxed">
-            Connecting the physical and digital worlds through
-            <span class="text-emerald-400">IoT, Embedded C++, and ESP32</span> systems.
+            Deploying high-performance cross-platform applications using
+            <span class="text-emerald-400">Flutter and React Native</span>.
           </p>
         </div>
 
@@ -77,13 +75,13 @@
           <div class="text-emerald-500 mb-4 text-3xl font-mono">03</div>
           <h3
             class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch"
-            data-text="STUDIO"
+            data-text="IMMERSIVE"
           >
-            STUDIO
+            IMMERSIVE
           </h3>
           <p class="text-gray-400 leading-relaxed">
-            Composing indie-pop and glitchcore frequencies using
-            <span class="text-emerald-400">FL Studio, Guitar, and Piano</span>.
+            Bridging the physical and digital with
+            <span class="text-emerald-400">Three.js, Unity, WebGL, and ESP32 IoT hardware</span>.
           </p>
         </div>
 
@@ -94,13 +92,14 @@
           <div class="text-emerald-500 mb-4 text-3xl font-mono">04</div>
           <h3
             class="text-2xl font-bold text-white mb-2 group-hover:permanent-glitch"
-            data-text="CREATOR"
+            data-text="AUDIO LAB"
           >
-            CREATOR
+            AUDIO LAB
           </h3>
           <p class="text-gray-400 leading-relaxed">
-            Exploring visual storytelling through
-            <span class="text-emerald-400">Painting, Shaders, and Game Design</span>.
+            Singer-songwriter & producer. Composing indie-pop frequencies and exploring audio
+            engineering via
+            <span class="text-emerald-400">FL Studio, DSP, with a Guitar and Piano</span>.
           </p>
         </div>
       </div>
@@ -133,29 +132,42 @@
       </div>
     </section>
 
-    <!-- <section class="max-w-4xl mx-auto py-20 px-6">
-      <div class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-xl group hover:border-emerald-500/30 transition-all">
+    <section class="max-w-4xl mx-auto py-20 px-6">
+      <div
+        class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-xl group hover:border-emerald-500/30 transition-all"
+      >
         <div class="flex items-center gap-6">
-          <button class="w-16 h-16 rounded-full bg-emerald-500 flex items-center justify-center hover:scale-110 transition-transform shadow-[0_0_20px_rgba(16,185,129,0.4)]">
+          <button
+            class="w-16 h-16 rounded-full bg-emerald-500 flex items-center justify-center hover:scale-110 transition-transform shadow-[0_0_20px_rgba(16,185,129,0.4)]"
+          >
             <svg class="w-8 h-8 text-black fill-current" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z"/>
+              <path d="M8 5v14l11-7z" />
             </svg>
           </button>
 
           <div class="flex-1">
-            <h4 class="text-white font-bold text-lg mb-1 group-hover:permanent-glitch" data-text="LATEST_COMPOSITION.MP3">LATEST_COMPOSITION.MP3</h4>
-            <p class="text-emerald-400/70 text-xs font-mono tracking-widest uppercase">Style: Glitchpop / Hyperpop</p>
+            <h4
+              class="text-white font-bold text-lg mb-1 group-hover:permanent-glitch"
+              data-text="UPCOMING..."
+            >
+              UPCOMING...
+            </h4>
+            <p class="text-emerald-400/70 text-xs font-mono tracking-widest uppercase">
+              Style: UPCOMING...
+            </p>
 
             <div class="flex items-end gap-1 h-8 mt-4">
-              <div v-for="n in 30" :key="n"
-                  class="w-1 bg-emerald-500/30 rounded-full animate-pulse"
-                  :style="{ height: Math.random() * 100 + '%', animationDelay: n * 0.1 + 's' }">
-              </div>
+              <div
+                v-for="n in 30"
+                :key="n"
+                class="w-1 bg-emerald-500/30 rounded-full animate-pulse"
+                :style="{ height: Math.random() * 100 + '%', animationDelay: n * 0.1 + 's' }"
+              ></div>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <div
       class="w-full bg-emerald-500/5 border-y border-emerald-500/10 py-4 overflow-hidden whitespace-nowrap animate-in backdrop-blur-xs"

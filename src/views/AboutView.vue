@@ -31,7 +31,7 @@ const artists = ['Jeremy Zucker', 'Ruel', 'Chelsea Cutler', 'brakence', 'EDEN', 
 const bootTime = ref(Math.random().toFixed(3))
 const currentFrequency = ref(440)
 
-const email = 'samipshrestha2003@gmail.com'
+const email = 'samip.shrestha@sqmmi3.dev'
 const isCopied = ref(false)
 
 const REHAB_START_DATE = new Date('2025-11-28')
@@ -62,22 +62,22 @@ const systemStats = computed(() => [
   },
   {
     label: 'CS_DEGREE',
-    value: 6.9,
-    display: '69%',
+    value: 7.6,
+    display: '76%',
     color: 'bg-emerald-500',
     textColor: 'text-emerald-500',
   },
   {
     label: 'FL_STUDIO',
-    value: 5.3,
-    display: '53%',
+    value: 7.8,
+    display: '78%',
     color: 'bg-emerald-500',
     textColor: 'text-emerald-500',
   },
   {
     label: 'IOT_DEV',
-    value: 3.4,
-    display: '34%',
+    value: 6.8,
+    display: '68%',
     color: 'bg-emerald-500',
     textColor: 'text-emerald-500',
   },
@@ -184,7 +184,7 @@ onMounted(() => {
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         <div
-          class="mt-12 p-6 border-l-2 border-emerald-500/30 bg-white/5 backdrop-blur-sm max-w-xl w-full animate-in"
+          class="mt-12 py-8 px-6 border-l-2 border-emerald-500/30 bg-white/5 backdrop-blur-sm max-w-xl w-full animate-in"
           style="animation-delay: 0.3s"
         >
           <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-[0.3em]">
@@ -201,14 +201,52 @@ onMounted(() => {
             </li>
             <li>
               <span class="text-emerald-500">>></span> Experience:
-              <span class="text-white">4 Years Building</span>
+              <span class="text-white">4.5 Years Building</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-emerald-500">>></span> Status:
               <span class="text-emerald-400 animate-pulse tracking-widest">ACTIVE_SIGNAL</span>
             </li>
           </ul>
-          <div class="mt-8 pt-12 border-t border-white/5">
+
+          <div
+            class="mt-6 p-4 bg-black/40 border border-emerald-500/20 rounded-lg font-mono text-[10px] tracking-widest"
+          >
+            <div class="text-emerald-500/60 mb-2 uppercase flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-3 w-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                />
+              </svg>
+              Registered B2B Entity
+            </div>
+            <div class="flex justify-between text-gray-400">
+              <span>ENTITY_NAME:</span>
+              <span class="text-white">SQMMI3 STUDIOS</span>
+            </div>
+            <div class="flex justify-between text-gray-400 mt-1">
+              <span>LEGAL_FORM:</span>
+              <span class="text-white">Eenmanszaak (Sole proprietorship)</span>
+            </div>
+            <div class="flex justify-between text-gray-400 mt-1">
+              <span>VAT_NUMBER:</span>
+              <span class="text-emerald-400">BE 1035.139.260</span>
+            </div>
+            <div class="flex justify-between text-gray-400 mt-1">
+              <span>LOCATION:</span>
+              <span class="text-white">Antwerp, BE</span>
+            </div>
+          </div>
+          <div class="mt-8 pt-8 border-t border-white/5">
             <button
               @click="copyEmail"
               class="group relative w-full py-6 px-6 bg-emerald-500/50 border border-emerald-500/20 rounded-lg overflow-hidden transition-all hover:border-emerald-500/50 hover:shadow-[0_0_20px_rgba(16,185,129,0.1)] active:scale-[0.98] cursor-pointer"
@@ -270,7 +308,7 @@ onMounted(() => {
         </div>
 
         <div
-          class="mt-12 p-6 border-l-2 border-emerald-500/30 bg-white/5 backdrop-blur-sm max-w-xl md:justify-self-end w-full animate-in"
+          class="mt-12 py-8 px-6 border-l-2 border-emerald-500/30 bg-white/5 backdrop-blur-sm max-w-xl md:justify-self-end w-full animate-in"
           style="animation-delay: 0.4s"
         >
           <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-[0.3em]">
@@ -371,7 +409,7 @@ onMounted(() => {
       >
         <h3 class="text-xl font-bold text-white mb-4">Physical World</h3>
         <ul class="text-gray-400 font-mono text-sm space-y-2">
-          <li>> Basketball (SM/PF)</li>
+          <li>> Basketball (SF/PF)</li>
           <li>> Canvas Painting</li>
           <li>> Digital Art</li>
           <li>> Singer-Songwriter</li>
