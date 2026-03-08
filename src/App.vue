@@ -119,7 +119,7 @@ const socialLinks = [
         </div>
 
         <div class="text-[10px] font-mono text-gray-600 uppercase tracking-widest">
-          SQMMI3_VOID <span class="text-emerald-500/40 ml-1">[BUILD_4.1.0]</span>
+          SQMMI3_VOID <span class="text-emerald-500/40 ml-1">[BUILD_4.1.1]</span>
         </div>
       </div>
 
