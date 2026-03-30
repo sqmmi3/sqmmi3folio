@@ -43,17 +43,17 @@ const socialLinks = [
 </script>
 
 <template>
-  <vue-particles id="tsparticles" :particlesInit="particlesInit" :options="particlesOptions" />
+  <vue-particles class="print:hidden" id="tsparticles" :particlesInit="particlesInit" :options="particlesOptions" />
   <div
-    class="fixed top-[-10%] left-[-10%] w-[600px] h-[600px] bg-emerald-900/10 rounded-full blur-[120px] pointer-events-none -z-10"
+    class="fixed top-[-10%] left-[-10%] w-[600px] h-[600px] bg-emerald-900/10 rounded-full blur-[120px] pointer-events-none -z-10 print:hidden"
   ></div>
   <div
-    class="fixed bottom-[10%] right-[-5%] w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none -z-10"
+    class="fixed bottom-[10%] right-[-5%] w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none -z-10 print:hidden"
   ></div>
 
   <header class="relative z-10">
     <nav
-      class="flex flex-wrap justify-center gap-x-6 gap-y-3 md:gap-20 p-4 md:p-5 bg-white/5 backdrop-blur-md border-b border-white/10 text-white sticky top-0 z-50 text-xs sm:text-sm md:text-base"
+      class="flex flex-wrap justify-center gap-x-6 gap-y-3 md:gap-20 p-4 md:p-5 bg-white/5 backdrop-blur-md border-b border-white/10 text-white sticky top-0 z-50 text-xs sm:text-sm md:text-base print:hidden"
     >
       <RouterLink
         to="/"
@@ -86,6 +86,14 @@ const socialLinks = [
       >
         Contact
       </RouterLink>
+
+      <RouterLink
+        to="/resume"
+        class="hover:text-emerald-400 drop-shadow-[0_0_8px_rgba(16,185,129,0)] hover:drop-shadow-[0_0_8px_rgba(16,185,129,0.5)] transition-all"
+        active-class="text-emerald-400 font-bold border-b-2 border-emerald-400"
+      >
+        Resume (CV)
+      </RouterLink>
     </nav>
   </header>
 
@@ -97,7 +105,7 @@ const socialLinks = [
     </router-view>
   </main>
 
-  <footer class="relative z-10 border-t border-white/5 bg-black/30 backdrop-blur-xl py-12 mt-20">
+  <footer class="relative z-10 border-t border-white/5 bg-black/30 backdrop-blur-xl py-12 mt-20 print:hidden">
     <div class="max-w-6xl mx-auto px-6 flex flex-col gap-8">
       <div class="flex flex-col md:flex-row justify-between items-center gap-8">
         <div class="font-mono text-[10px] tracking-widest text-gray-500/70 flex items-center">
@@ -119,7 +127,7 @@ const socialLinks = [
         </div>
 
         <div class="text-[10px] font-mono text-gray-600 uppercase tracking-widest">
-          SQMMI3_VOID <span class="text-emerald-500/40 ml-1">[BUILD_4.1.2]</span>
+          SQMMI3_VOID <span class="text-emerald-500/40 ml-1">[BUILD_4.1.3]</span>
         </div>
       </div>
 
