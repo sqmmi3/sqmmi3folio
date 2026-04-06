@@ -150,7 +150,7 @@ export const projects: Project[] = [
     description:
       'A B2B product configurator featuring dynamic geometry generation, real-time lighting transitions (day/night cycles), and a custom screenshot/spec-sheet export tool',
     category: 'Engineering',
-    tags: ['Three.js, TypeScript', 'Vite', 'WebGL'],
+    tags: ['Three.js', 'TypeScript', 'Vite', 'WebGL'],
     demoLink: '/material-studio/index.html',
     link: 'https://github.com/sqmmi3/materialstudio',
   },
@@ -164,4 +164,13 @@ export const projects: Project[] = [
     demoLink: '/grid-planner/index.html',
     link: 'https://github.com/sqmmi3/grid-planner',
   },
+  {
+    id: 13,
+    title: 'Party Dropbox',
+    description: 'A simple idea when planning a surprise party for a birthday. Simple database to real-time update rendering UI.',
+    category: 'Engineering',
+    tags: ['VueJS', 'Firebase', 'Vite'],
+    demoLink: '/party/index.html',
+    link: 'https://github.com/sqmmi3/party',
+  }
 ]
