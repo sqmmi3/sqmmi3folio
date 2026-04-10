@@ -141,28 +141,43 @@ const printResume = () => {
 
         <div class="space-y-4">
           <div>
-            <h4 class="font-bold text-sm text-black">Material Studio (B2B Configurator) <span class="font-normal text-gray-500">| Three.js, TypeScript, WebGL</span></h4>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Developed a high-performance B2B product configurator featuring dynamic geometry generation, real-time lighting transitions, and a custom spec-sheet export tool.</p>
-          </div>
-
-          <div>
-            <h4 class="font-bold text-sm text-black">Grid Layout Planner (Spatial Tool) <span class="font-normal text-gray-500">| Three.js, Raycasting, 3D Math</span></h4>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Built a modular spatial planner demonstrating advanced raycasting, 3D math for grid-mapping, collision detection, and continuous interactive "paintbrush" placement.</p>
-          </div>
-
-          <div>
-            <h4 class="font-bold text-sm text-black">GlacKIT Flow Engine (Microservices) <span class="font-normal text-gray-500">| Vue.js, Java Springboot, Agile (Scrum Master)</span></h4>
+            <div>
+              <h4 class="font-bold text-sm text-black">GlacKIT Flow Engine (Microservices) <span class="font-normal text-gray-500">| Vue.js, Java Springboot, Agile (Scrum Master)</span></h4>
+              <span class="text-xs font-mono text-gray-500">Aug 2025 – Jan 2026</span>
+            </div>
             <p class="text-sm text-gray-800 leading-relaxed mt-1">Engineered a scalable, microservice-based web app to handle dynamic workflows. Acted as Scrum Master while managing frontend state in Vue.js and routing in MongoDB.</p>
           </div>
 
           <div>
-            <h4 class="font-bold text-sm text-black">JUK3D Music Box (IoT & WebSockets) <span class="font-normal text-gray-500">| Java, React Native, Raspberry Pi</span></h4>
+            <div>
+              <h4 class="font-bold text-sm text-black">Real-time Event UI (State Management) <span class="font-normal text-gray-500">| Vue.js, Vite, Firebase</span></h4>
+              <span class="text-xs font-mono text-gray-500">Apr 2026 – Present</span>
+            </div>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Developed a reactive, real-time UI interface leveraging Vue.js and Vite. Designed an optimized database schema to push live UI rendering updates to client applications.</p>
+          </div>
+
+          <div>
+            <div>
+              <h4 class="font-bold text-sm text-black">JUK3D Distributed System (IoT) <span class="font-normal text-gray-500">| Java, React Native, Raspberry Pi, Websocket</span></h4>
+              <span class="text-xs font-mono text-gray-500">Apr 2025 – Jun 2026</span>
+            </div>
             <p class="text-sm text-gray-800 leading-relaxed mt-1">Architected a full-stack IoT music ecosystem. Built a Java/Springboot backend communicating in real-time with physical hardware via WebSockets, controlled via mobile UI.</p>
           </div>
 
           <div>
-            <h4 class="font-bold text-sm text-black">Procedural 3D Terrain Engine <span class="font-normal text-gray-500">| Unity, C#, Perlin Noise</span></h4>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Engineered an optimized, chunk-based 3D terrain system featuring advanced graphics pipelines, custom vertex displacements, and mesh optimization for high-framerate rendering.</p>
+            <div>
+              <h4 class="font-bold text-sm text-black">Axxess Routing Platform <span class="font-normal text-gray-500">| Java Spring Boot, Full-stack, React Native </span></h4>
+              <span class="text-xs font-mono text-gray-500">Aug 2024 – Jan 2025</span>
+            </div>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Built a feature-rich, full-stack application featuring a highly optimized routing algorithm for navigation. Designed the core Java Spring Boot backend to handle complex relational data.</p>
+          </div>
+
+          <div>
+            <div>
+              <h4 class="font-bold text-sm text-black">Material Studio (B2B Configurator) <span class="font-normal text-gray-500">| Three.js, TypeScript, WebGL</span></h4>
+              <span class="text-xs font-mono text-gray-500">Feb 2026 – Feb 2026</span>
+            </div>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Developed a high-performance B2B product configurator featuring dynamic geometry generation, real-time lighting transitions, and a custom spec-sheet export tool.</p>
           </div>
         </div>
       </section>

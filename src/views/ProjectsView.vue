@@ -77,8 +77,13 @@ const filteredProjects = computed(() => {
         :key="project.id"
         class="group relative bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-2xl hover:border-emerald-500/50 transition-all duration-500 flex flex-col h-full"
       >
-        <div class="text-[10px] text-emerald-500/50 font-mono uppercase tracking-widest mb-4">
-          // {{ project.category }}
+        <div class="flex justify-between items-center mb-4">
+          <div class="text-[10px] text-emerald-500/50 font-mono uppercase tracking-widest">
+            // {{ project.category }}
+          </div>
+          <div v-if="project.period" class="text-[10px] text-gray-500/70 font-mono tracking-widest">
+            {{ project.period }}
+          </div>
         </div>
 
         <h3

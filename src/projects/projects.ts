@@ -5,7 +5,8 @@ export interface Project {
   description: string
   tags: string[]
   demoLink?: string
-  link: string
+  link?: string
+  period?: string
 }
 
 export const projects: Project[] = [
@@ -17,6 +18,7 @@ export const projects: Project[] = [
       'Real-time music box built on Raspberry PI and ESP32, bridging physical sound hardware controlled with mobile interface!',
     tags: ['Java (Sprintboot)', 'React Native', 'Web-sockets', 'Python', 'IoT', 'TypeScript'],
     link: 'https://github.com/sqmmi3/juk3d',
+    period: 'Apr 2025 – Jun 2025'
   },
   {
     id: 2,
@@ -26,6 +28,7 @@ export const projects: Project[] = [
       'An easily extendable dynamic flow engine to handle flows that have integrated steps systems to link with other platforms for for example absence management and handling, while I acted throughout the project as SCRUM MASTER!',
     tags: ['Java (Sprinboot)', 'VueJS', 'MongoDB', 'Agile', 'Senior Scrum Master', 'Full-Stack'],
     link: 'https://github.com/sqmmi3/glackit',
+    period: 'Aug 2025 – Jan 2026'
   },
   {
     id: 3,
@@ -35,6 +38,7 @@ export const projects: Project[] = [
       'A feature-rich mobile carpooling application to register rides and certain characteristics to it, with a optimised algorithm for optimal route navigation for drivers and passengers to follow!',
     tags: ['Java (Springboot)', 'React Native', 'Junior Developer', 'Styling', 'Full-Stack'],
     link: 'https://github.com/sqmmi3/wpp',
+    period: 'Aug 2024 – Jan 2025'
   },
   {
     id: 4,
@@ -51,6 +55,7 @@ export const projects: Project[] = [
       'Real-world Problem',
     ],
     link: 'https://github.com/sqmmi3/resqfood',
+    period: 'Aug 2025 – Jan 2026'
   },
   {
     id: 5,
@@ -68,6 +73,7 @@ export const projects: Project[] = [
       'Slaying Mobs',
     ],
     link: 'https://github.com/sqmmi3/okapj',
+    period: 'Nov 2023 – Nov 2023'
   },
   {
     id: 6,
@@ -88,6 +94,7 @@ export const projects: Project[] = [
       'C#',
     ],
     link: 'https://github.com/sqmmi3/3d',
+    period: 'Feb 2025 – Jun 2025'
   },
   {
     id: 7,
@@ -105,6 +112,7 @@ export const projects: Project[] = [
       'C#',
     ],
     link: 'https://github.com/sqmmi3/basketball',
+    period: 'Aug 2025 – Jan 2026'
   },
   {
     id: 8,
@@ -114,6 +122,7 @@ export const projects: Project[] = [
       'A multi-user roled system for an event ticket system for users to buy, artists to host, and managers to manage details of events!',
     tags: ['Ticket System', 'Artists', 'Events', 'React', 'TypeScript'],
     link: 'https://github.com/sqmmi3/showtime',
+    period: 'Aug 2024 – Jan 2025'
   },
   {
     id: 9,
@@ -134,6 +143,7 @@ export const projects: Project[] = [
       'Mechanics',
     ],
     link: 'https://github.com/Adam03lvl/glitchKIT',
+    period: 'Oct 2025 – Oct 2025'
   },
   {
     id: 10,
@@ -143,6 +153,7 @@ export const projects: Project[] = [
       'Custom-made MP3 player for a fun 6-months surprise for my beloved girlfriend who loves music as much as I do and likes her flowers and pinkness!',
     tags: ['PyQt6', 'Python', 'Spotify Dev', 'Dekstop App', 'In-sync music player'],
     link: 'https://github.com/sqmmi3/mp3player',
+    period: 'Oct 2025 – Oct 2025'
   },
   {
     id: 11,
@@ -153,6 +164,7 @@ export const projects: Project[] = [
     tags: ['Three.js', 'TypeScript', 'Vite', 'WebGL'],
     demoLink: '/material-studio/index.html',
     link: 'https://github.com/sqmmi3/materialstudio',
+    period: 'Feb 2026 – Feb 2026'
   },
   {
     id: 12,
@@ -163,6 +175,7 @@ export const projects: Project[] = [
     tags: ['Three.js', 'Raycasting', 'Mathematics', 'Interactive'],
     demoLink: '/grid-planner/index.html',
     link: 'https://github.com/sqmmi3/grid-planner',
+    period: 'Feb 2026 – Feb 2026'
   },
   {
     id: 13,
@@ -172,5 +185,22 @@ export const projects: Project[] = [
     tags: ['VueJS', 'Firebase', 'Vite'],
     demoLink: '/party/index.html',
     link: 'https://github.com/sqmmi3/party',
+    period: 'Apr 2026 – Present'
+  },
+  {
+    id: 14,
+    title: 'Library Back-end',
+    description: 'Developed a dynamic check-in, check-out, subscription and publications system of all books of a library as personal project.',
+    category: 'Engineering',
+    tags: ['Java', 'Spring Boot'],
+    period: 'Aug 2023 – Jun 2024'
+  },
+  {
+    id: 15,
+    title: 'Fan-page front-end',
+    description: 'Developed a fan-page static front-end page about my favourite artist describing his life and songs as well as his equipment used to make music',
+    category: 'Engineering',
+    tags: ['JavaScript', 'HTML', 'CSS', 'SCSS', 'TailwindCSS'],
+    period: 'Jul 2023 – Dec 2023'
   }
 ]
