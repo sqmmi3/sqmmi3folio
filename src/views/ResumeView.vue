@@ -23,12 +23,12 @@ const printResume = () => {
     <div class="bg-white mx-auto w-full max-w-[210mm] min-h-[297mm] shadow-2xl print:shadow-none p-8 sm:p-[15mm] print:p-[15mm]">
 
       <!-- HEADER -->
-      <header class="border-b-2 border-black pb-4 mb-8">
+      <header class="border-b-2 border-black pb-4 mb-4">
         <h1 class="text-4xl md:text-5xl font-black uppercase tracking-tight text-black mb-2">Samip Shrestha</h1>
-        <h2 class="text-xl font-medium text-gray-600 mb-4">Freelance Creative Technologist & Full-Stack Architect</h2>
+        <h2 class="text-xl font-medium text-gray-600 mb-2">Freelance Creative Technologist & Full-Stack Architect</h2>
 
         <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-700 font-mono">
-          <span>📍 Antwerp / Leuven, BE</span>
+          <span>📍 Antwerp / Leuven / Ostend / Brussels, BE</span>
           <span>📞 +32 489 00 75 70</span>
           <span>✉️ samip.shrestha@sqmmi3.dev</span>
           <span>🏢 BE 1035.139.260</span>
@@ -37,16 +37,16 @@ const printResume = () => {
       </header>
 
       <!-- EXECUTIVE SUMMARY -->
-      <section class="mb-8">
-        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Executive Summary</h3>
+      <section class="mb-4">
+        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Executive Summary</h3>
         <p class="text-sm leading-relaxed text-gray-800">
-          Creative Technologist and B2B IT Consultant operating as <strong>SQMMI3 STUDIOS</strong>. Specializing in the intersection of high-performance web architecture, immersive 3D/WebGL experiences, and physical IoT system integration. Proven ability to bridge rigid backend data structures with highly interactive front-ends. Currently finalizing a BSc in Computer Science with intent to pursue a Master's in Electronics-ICT Engineering Technology.
+          Full-Stack Java Developer specializing in secure, enterprise-grade applications. Proven expertise in building robust backends with Java (21+), Spring Boot, and Hibernate/JPA, seamlessly integrated with high-performance Angular and TypeScript frontends. Operating as a B2B IT consultant, I focus on delivering scalable, compliant systems with a strong emphasis on data integrity, REST API development, and CI/CD/Docker automation within Agile environments.
         </p>
       </section>
 
       <!-- PROFESSIONAL EXPERIENCE -->
-      <section class="mb-8">
-        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Professional Experience</h3>
+      <section class="mb-4">
+        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Professional Experience</h3>
 
         <div class="mb-4">
           <div class="flex justify-between items-baseline mb-1">
@@ -54,76 +54,62 @@ const printResume = () => {
             <span class="text-xs font-mono text-gray-500">2026 – Present</span>
           </div>
           <ul class="list-disc list-inside text-sm leading-relaxed text-gray-800 space-y-1">
-            <li>Provide B2B IT consultancy, custom software architecture, and full-stack development for digital agencies.</li>
-            <li>Specialize in high-performance frontend architecture, 3D/WebGL design, and hardware/IoT integrations.</li>
+            <li>Provide B2B IT consultancy, designing and developing Full-Stack Java applications based on complex functional requirements.</li>
+            <li>Build secure, performant REST/SOAP APIs using Spring Boot and Hibernate, backed by relational databases (SQL Server/PostgreSQL).</li>
+            <li>Develop user-friendly, maintainable frontend platforms using ReactJS, Angular, and modern web technologies.</li>
           </ul>
         </div>
 
         <div class="mb-4">
           <div class="flex justify-between items-baseline mb-1">
-            <h4 class="font-bold text-sm text-black">Customer Operations & Team Support | Colruyt Group</h4>
-            <span class="text-xs font-mono text-gray-500">2022 – 2025</span>
+            <h4 class="font-bold text-sm text-black">Software Engineer (Lead Developer) | Bevolve</h4>
+            <span class="text-xs font-mono text-gray-500">2026 – Present</span>
           </div>
           <ul class="list-disc list-inside text-sm leading-relaxed text-gray-800 space-y-1">
-            <li>Developed rapid decision-making and leadership skills by coordinating operations in a high-volume environment.</li>
-            <li>Maintained rigorous standards of client communication, conflict resolution, and efficiency during peak hours.</li>
-          </ul>
-        </div>
-
-        <div class="mb-4">
-          <div class="flex justify-between items-baseline mb-1">
-            <h4 class="font-bold text-sm text-black">Hardware Sales Consultant | ALTERNATE</h4>
-            <span class="text-xs font-mono text-gray-500">2020</span>
-          </div>
-          <ul class="list-disc list-inside text-sm leading-relaxed text-gray-800 space-y-1">
-            <li>Advised B2B/B2C customers on complex computer hardware architecture and IT network security upgrades.</li>
+            <li>Developed dynamic frontend interfaces and embedded IoT system, utilizing reactive programming principles to handle real-time MQTT telemetry data.</li>
+            <li>Built an offline-first frontend architecture with complex session persistence and secure UI-level SSO (Okta) integration.</li>
+            <li>Integrated secure, event-driven telemetry systems and REST APIs in a containerized Agile environment.</li>
+            <li>Engineered and assembled a costum PCB for rebost hardware integration</li>
+            <li>Developed dynamic versioning to orchestrate seamless Over-The-Air (OTA) firmware deployments</li>
           </ul>
         </div>
       </section>
 
       <!-- TECHNICAL ARSENAL -->
-      <section class="mb-8">
-        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Technical Arsenal</h3>
+       <section class="mb-4">
+        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Technical Arsenal</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-4 text-sm leading-relaxed text-gray-800 print:break-inside-avoid">
           <div>
-            <p><strong class="text-black">Core Languages:</strong> TypeScript, JavaScript, Python, Java, C#, C++, SQL</p>
-            <p><strong class="text-black">Web & App:</strong> React (Native), Vue.js, Node.js, Next.js, NestJS, Springboot</p>
+            <p><strong class="text-black">Backend & Data:</strong> Java (21+), Spring Boot, Spring MVC, Hibernate / JPA, REST / SOAP APIs, Maven, Python Django</p>
+            <p><strong class="text-black">Frontend:</strong> Angular, ReactJS, TypeScript, HTML5, CSS/SASS, JavaScript, Flutter, VueJS</p>
           </div>
           <div>
-            <p><strong class="text-black">3D & Game Dev:</strong> Three.js, TresJS, Unity, Godot, WebGL, Custom Shaders</p>
-            <p><strong class="text-black">Systems & IoT:</strong> Raspberry Pi, ESP32, WebSockets, Docker, Linux</p>
+            <p><strong class="text-black">Databases:</strong> Microsoft SQL Server, PostgreSQL, MongoDB, Relational Data Modeling</p>
+            <p><strong class="text-black">DevOps & Methodology:</strong> Docker, Kubernetes, CI/CD pipelines, GCP, Agile/Scrum</p>
           </div>
         </div>
       </section>
 
       <!-- EDUCATION & PERSONAL -->
-      <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-8 mb-8 print:break-inside-avoid print:break-before-page print:pt-[15mm]">
+      <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-8 mb-4 print:break-inside-avoid print:break-before-page print:pt-[15mm]">
         <!-- EDUCATION -->
         <section>
-          <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Education</h3>
+          <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Education</h3>
 
-          <div class="mb-3">
+          <div class="mb-4">
             <div class="flex justify-between items-baseline mb-1">
               <h4 class="font-bold text-sm text-black">BSc Computer Science</h4>
-              <span class="text-xs font-mono text-gray-500">Exp. 2026</span>
+              <span class="text-xs font-mono text-gray-500">2023 – 2026</span>
             </div>
-            <p class="text-sm text-gray-800 leading-relaxed">UCLL • <em>Digital Experience, 3D Rendering, IoT</em></p>
-          </div>
-
-          <div>
-            <div class="flex justify-between items-baseline mb-1">
-              <h4 class="font-bold text-sm text-black">BSc Civil Engineering (1st Yr)</h4>
-              <span class="text-xs font-mono text-gray-500">2021 – 2023</span>
-            </div>
-            <p class="text-sm text-gray-800 leading-relaxed">KU Leuven • <em>Advanced Math, Physics, Logic</em></p>
+            <p class="text-sm text-gray-800 leading-relaxed">UCLL • <em>Digital Experience, Software Engineering/Architecture, UX/UI Engineering</em></p>
           </div>
         </section>
 
         <!-- PERSONAL & LANGUAGES -->
         <section>
-          <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Personal & Languages</h3>
+          <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Personal & Languages</h3>
 
-          <div class="mb-3">
+          <div class="mb-4">
             <h4 class="font-bold text-sm text-black mb-1">Languages</h4>
             <p class="text-sm text-gray-800 leading-relaxed">English (Native), Dutch (Native), Nepalese (Conversational), French (Basic)</p>
           </div>
@@ -136,60 +122,53 @@ const printResume = () => {
       </div>
 
       <!-- KEY ENGINEERING PROJECTS -->
-      <section class="mb-8">
-        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Key Engineering Projects</h3>
+      <section class="mb-4">
+        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Key Engineering Projects</h3>
 
         <div class="space-y-4">
           <div>
             <div>
-              <h4 class="font-bold text-sm text-black">GlacKIT Flow Engine (Microservices) <span class="font-normal text-gray-500">| Vue.js, Java Springboot, Agile (Scrum Master)</span></h4>
+              <h4 class="font-bold text-sm text-black">MOBY <span class="font-normal text-gray-500">| Flutter, C++, MQTT, Node-RED, Linux, Angular, PlatformIO, Firebase, OAuth, Okta, HTML5, Linker</span></h4>
+              <span class="text-xs font-mono text-gray-500">Apr 2025 – Jun 2025</span>
+            </div>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Architected a fault-tolerant, cross-platform IoT controller in Flutter. Implemented real-time bidirectional MQTT hardware telemetry, enterprise SSO (Okta/Firebase), and a local session-persistence layer for seamless crash recovery in industrial environments. Engineered and assembled a custom PCB for robust hardware integration. Additionally, developed a proprietary versioning engine to orchestrate seamless Over-The-Air (OTA) firmware deployments</p>
+          </div>
+
+          <div>
+            <div>
+              <h4 class="font-bold text-sm text-black">JUK3D Distributed System (IoT Music Box) <span class="font-normal text-gray-500">| Java, Spring Boot, Python, TypeScript, React Native, WebSockets</span></h4>
+              <span class="text-xs font-mono text-gray-500">Apr 2025 – Jun 2025</span>
+            </div>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Architected a full-stack IoT hardware-software ecosystem. Built a robust Spring Boot backend communicating in real-time with physical hardware (Raspberry Pi/ESP32) via WebSockets and Python scripts, controlled via a cross-platform mobile interface.</p>
+          </div>
+
+          <div>
+            <div>
+              <h4 class="font-bold text-sm text-black">GlacKIT Flow Engine (Microservices) <span class="font-normal text-gray-500">| Vue.js, Java, Spring Boot, TypeScript, Microservices, MongoDB</span></h4>
               <span class="text-xs font-mono text-gray-500">Aug 2025 – Jan 2026</span>
             </div>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Engineered a scalable, microservice-based web app to handle dynamic workflows. Acted as Scrum Master while managing frontend state in Vue.js and routing in MongoDB.</p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Architected a scalable, dynamic flow engine for complex B2B workflow management. Designed modular information flows and backend integrations to allow external platforms to upload, characteristize, and process dynamic datasets efficiently.</p>
           </div>
 
           <div>
             <div>
-              <h4 class="font-bold text-sm text-black">Real-time Event UI (State Management) <span class="font-normal text-gray-500">| Vue.js, Vite, Firebase</span></h4>
-              <span class="text-xs font-mono text-gray-500">Apr 2026 – Present</span>
+              <h4 class="font-bold text-sm text-black">ResQFood Mobile App <span class="font-normal text-gray-500">| Java, Spring Boot, Hibernate, JPA, SQL (psql), REST, Flutter</span></h4>
+              <span class="text-xs font-mono text-gray-500">Aug 2025 – Jan 2026</span>
             </div>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Developed a reactive, real-time UI interface leveraging Vue.js and Vite. Designed an optimized database schema to push live UI rendering updates to client applications.</p>
-          </div>
-
-          <div>
-            <div>
-              <h4 class="font-bold text-sm text-black">JUK3D Distributed System (IoT) <span class="font-normal text-gray-500">| Java, React Native, Raspberry Pi, Websocket</span></h4>
-              <span class="text-xs font-mono text-gray-500">Apr 2025 – Jun 2026</span>
-            </div>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Architected a full-stack IoT music ecosystem. Built a Java/Springboot backend communicating in real-time with physical hardware via WebSockets, controlled via mobile UI.</p>
-          </div>
-
-          <div>
-            <div>
-              <h4 class="font-bold text-sm text-black">Axxess Routing Platform <span class="font-normal text-gray-500">| Java Spring Boot, Full-stack, React Native </span></h4>
-              <span class="text-xs font-mono text-gray-500">Aug 2024 – Jan 2025</span>
-            </div>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Built a feature-rich, full-stack application featuring a highly optimized routing algorithm for navigation. Designed the core Java Spring Boot backend to handle complex relational data.</p>
-          </div>
-
-          <div>
-            <div>
-              <h4 class="font-bold text-sm text-black">Material Studio (B2B Configurator) <span class="font-normal text-gray-500">| Three.js, TypeScript, WebGL</span></h4>
-              <span class="text-xs font-mono text-gray-500">Feb 2026 – Feb 2026</span>
-            </div>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1">Developed a high-performance B2B product configurator featuring dynamic geometry generation, real-time lighting transitions, and a custom spec-sheet export tool.</p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1">Developed a robust Spring Boot backend for a high-traffic mobile application. Implemented complex SQL data models using persistence frameworks (Hibernate/JPA) to manage inventory lifecycles, integrating cloud notifications (Firebase) and secure user authentication protocols.</p>
           </div>
         </div>
       </section>
 
       <!-- ADDITIONAL INFORMATION-->
-      <section>
-        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-3 pb-1">Additional Information</h3>
+      <section class="mb-4">
+        <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Additional Information</h3>
         <div class="space-y-4">
-          <div>
-            <h4 class="font-bold text-sm text-black">Links</h4>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sqmmi3">www.linkedin.com/in/sqmmi3</a></p>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>GitHub:</strong> <a href="https://github.com/sqmmi3">https://github.com/sqmmi3</a></p>
+          <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 print:break-inside-avoid">
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sqmmi3">LinkedIn - SQMMI3</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/sqmmi3-studios">LinkedIn - SQMMI3 STUDIOS</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>GitHub:</strong> <a href="https://github.com/sqmmi3">Github - SQMMI3</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>Portfolio:</strong> <a href="https://sqmmi3.dev">SQMMI3 // Creative Polymath</a></p>
           </div>
 
           <div>
