@@ -25,7 +25,7 @@ const printResume = () => {
       <!-- HEADER -->
       <header class="border-b-2 border-black pb-4 mb-4">
         <h1 class="text-4xl md:text-5xl font-black uppercase tracking-tight text-black mb-2">Samip Shrestha</h1>
-        <h2 class="text-xl font-medium text-gray-600 mb-2">Freelance Creative Technologist & Full-Stack Architect</h2>
+        <h2 class="text-l font-medium text-gray-600 mb-2">Full-Systems Tech Architect (B2B) | Founder - Technical Architect @ SQMMI3 STUDIOS</h2>
 
         <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-700 font-mono">
           <span>📍 Antwerp / Leuven / Ostend / Brussels, BE</span>
