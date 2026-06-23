@@ -62,15 +62,15 @@ const printResume = () => {
 
         <div class="mb-4">
           <div class="flex justify-between items-baseline mb-1">
-            <h4 class="font-bold text-sm text-black">Software Engineer (Lead Developer) | Bevolve</h4>
+            <h4 class="font-bold text-sm text-black">Software & Hardware Engineer (Lead Engineer) | Bevolve</h4>
             <span class="text-xs font-mono text-gray-500">2026 – Present</span>
           </div>
           <ul class="list-disc list-inside text-sm leading-relaxed text-gray-800 space-y-1">
             <li>Developed dynamic frontend interfaces and embedded IoT system, utilizing reactive programming principles to handle real-time MQTT telemetry data.</li>
             <li>Built an offline-first frontend architecture with complex session persistence and secure UI-level SSO (Okta) integration.</li>
             <li>Integrated secure, event-driven telemetry systems and REST APIs in a containerized Agile environment.</li>
-            <li>Engineered and assembled a costum PCB for rebost hardware integration</li>
-            <li>Developed dynamic versioning to orchestrate seamless Over-The-Air (OTA) firmware deployments</li>
+            <li>Engineered and assembled a costum PCB for rebost hardware integration.</li>
+            <li>Developed dynamic versioning to orchestrate seamless Over-The-Air (OTA) firmware deployments.</li>
           </ul>
         </div>
       </section>
