@@ -32,7 +32,7 @@ const printResume = () => {
           <span>📞 +32 489 00 75 70</span>
           <span>✉️ samip.shrestha@sqmmi3.dev</span>
           <span>🏢 BE 1035.139.260</span>
-          <a href="https://sqmmi3.dev" class="hover:underline text-black font-semibold">🔗 sqmmi3.dev</a>
+          <a href="https://sqmmi3.dev" class="hover:underline text-black font-semibold" style="color: blue; text-decoration: underline;">🔗 sqmmi3.dev</a>
         </div>
       </header>
 
@@ -165,10 +165,10 @@ const printResume = () => {
         <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Additional Information</h3>
         <div class="space-y-4">
           <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 print:break-inside-avoid">
-            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sqmmi3">LinkedIn - SQMMI3</a></p>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/sqmmi3-studios">LinkedIn - SQMMI3 STUDIOS</a></p>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>GitHub:</strong> <a href="https://github.com/sqmmi3">Github - SQMMI3</a></p>
-            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>Portfolio:</strong> <a href="https://sqmmi3.dev">SQMMI3 // Creative Polymath</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sqmmi3" style="color: blue; text-decoration: underline;">LinkedIn - SQMMI3</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/sqmmi3-studios" style="color: blue; text-decoration: underline;">LinkedIn - SQMMI3 STUDIOS</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>GitHub:</strong> <a href="https://github.com/sqmmi3" style="color: blue; text-decoration: underline;">Github - SQMMI3</a></p>
+            <p class="text-sm text-gray-800 leading-relaxed mt-1"><strong>Portfolio:</strong> <a href="https://sqmmi3.dev" style="color: blue; text-decoration: underline;">SQMMI3 // Creative Polymath</a></p>
           </div>
 
           <div>
