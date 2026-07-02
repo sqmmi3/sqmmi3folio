@@ -40,7 +40,7 @@ const printResume = () => {
       <section class="mb-4">
         <h3 class="text-base font-bold uppercase tracking-wider text-black border-b border-gray-300 mb-2 pb-1">Executive Summary</h3>
         <p class="text-sm leading-relaxed text-gray-800">
-          Full-Stack Java Developer specializing in secure, enterprise-grade applications. Proven expertise in building robust backends with Java (21+), Spring Boot, and Hibernate/JPA, seamlessly integrated with high-performance Angular and TypeScript frontends. Operating as a B2B IT consultant, I focus on delivering scalable, compliant systems with a strong emphasis on data integrity, REST API development, and CI/CD/Docker automation within Agile environments.
+          Multi-disciplinary Full-Systems Tech Architect and B2B IT Consultant specializing in bridging complex enterprise software ecosystems with physical hardware engineering. Extensive experience designing fault-tolerant distributed systems, microservices, and high-performance backends (Java/Spring Boot, SQL) seamlessly integrated with dynamic frontends (Vue.js, React, Angular, Flutter). Expert in architecting end-to-end IoT solutions—from real-time telemetry (MQTT, WebSockets) and custom PCB engineering to secure containerized infrastructure (Docker) and automated firmware orchestration.
         </p>
       </section>
 
